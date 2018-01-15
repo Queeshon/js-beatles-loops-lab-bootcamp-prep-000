@@ -21,9 +21,7 @@ function iLoveTheBeatles(number){
  var array = []
   do{
     array.push (`I love the Beatles!`)
-  } while (goalNumber < 15){
-    array.push (`I love the Beatles!`)
     goalNumber++
-  }
+  } while (goalNumber < 15)
   return array
 }
