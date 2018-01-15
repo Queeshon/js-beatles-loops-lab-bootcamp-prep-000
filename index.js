@@ -22,6 +22,7 @@ function iLoveTheBeatles(number){
     array.push (`I love the Beatles!`)
   } while (array.length < 15){
     array.push (`I love the Beatles!`)
+    count++
   }
   return array
 }
